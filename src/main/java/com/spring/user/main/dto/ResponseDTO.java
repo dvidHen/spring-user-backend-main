@@ -2,6 +2,9 @@ package com.spring.user.main.dto;
 
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
+/**
+ * Clase que representa un teléfono asociado a un usuario.
+ */
 @JsonPropertyOrder({"status", "title", "data"})
 public class ResponseDTO {
     private int status;
